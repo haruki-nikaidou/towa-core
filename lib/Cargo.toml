@@ -5,6 +5,7 @@ edition = "2021"
 description = "A super strong and super slow encrypt-er"
 repository = "https://github.com/haruki-nikaidou/towa-core"
 license = "MIT"
+authors = ["Nikaidou Haruki <meteo.haru@gmail.com>"]
 
 [dependencies]
 base64 = "0.21.5"
