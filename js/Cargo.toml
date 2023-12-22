@@ -1,13 +1,14 @@
 [package]
-name = "towa-core"
+name = "towa-js-port"
 version = "0.1.0"
 edition = "2021"
 description = "A super strong and super slow encrypt-er"
 repository = "https://github.com/haruki-nikaidou/towa-core"
 license = "MIT"
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 [dependencies]
-base64 = "0.21.5"
-byteorder = "1.5.0"
-sha2 = "0.10.8"
-threefish = "0.5.2"
+towa-core = "0.1.0"
+wasm-bindgen = "0.2.89"
