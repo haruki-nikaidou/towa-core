@@ -2,6 +2,8 @@
 name = "towa-core"
 version = "0.1.0"
 edition = "2021"
+description = "A super strong and super slow encrypt-er"
+repository = "https://github.com/haruki-nikaidou/towa-core"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
